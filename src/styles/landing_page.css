@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(26, 30, 31);
+    
+}
+p,h1,h2,h3,h4,h5,a{
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:rgb(212, 208, 202);
+
+}
+.title{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(52, 176, 254);
+    font-size: 48px;
+    
+}
+.subtitle{
+    text-align: center;
+    font-size: 32px;
+    margin: 10px 0 30px;
+    color: rgb(178, 172, 162);
+}
+.url-container{
+    box-shadow: 0 1px 4px #ccc;
+    padding: 10px 30px 5px;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+    background-color: rgb(25, 26, 28);
+}
+
+.LoginBox{
+    display:flex;
+    gap:15px;
+    justify-content: flex-end;
+    margin-right: 40px;
+    font-size: 20px;
+}
+.LoginBox a{
+  color:white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: rgb(35, 108, 158);
+}
+main{
+    padding: 0 20px;
+
+}
+
+/*////////////////////////////*/
+
+.input-container input{
+  margin-right: 2%;
+  width: 50%;
+  height: 60px;
+  border:0;
+  border-radius: 3px;
+  background-color: black;
+  font-size: 24px;
+  color: whitesmoke
+  
+}
+.input-container button{
+  border: 0;
+  height: 62px;
+  border-radius: 3px;
+  background-color: rgb(35, 108, 158);
+  color: whitesmoke;
+  font-size: 15px;
+  font-size: 24px;
+
+}
+
+.description{
+  padding: 10px 30px 0;
+  font-size: 20px;
+}
+
+.description-2{
+  padding: 10px 60px 0;
+  font-size: 20px;
+  text-align: left;
+}
+.description-2 h1{
+  margin: 0;
+  color: rgb(178, 172, 162);
+
+}
